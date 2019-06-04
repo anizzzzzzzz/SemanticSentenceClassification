@@ -179,9 +179,9 @@ class ContextLstmCnn(object):
         plot_model_results(classifier, model_dir_path, 'resume_parser_model',
                            ('line_label_output_loss', 'val_line_label_output_loss'))
 
-        score = self.model.evaluate(x=x_test, y=y_test, batch_size=batch_size, verbose=1)
-        print('score : ', score[0])
-        print('accuracy : ', score[1])
+        # score = self.model.evaluate(x=x_test, y=y_test, batch_size=batch_size, verbose=1)
+        # print('score : ', score[0])
+        # print('accuracy : ', score[1])
 
         return classifier
 

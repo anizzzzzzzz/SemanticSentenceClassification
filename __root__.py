@@ -2,4 +2,4 @@ import os
 
 
 def getPath():
-    return os.getcwd()
+    return os.path.dirname(__file__)
